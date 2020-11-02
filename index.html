@@ -31,8 +31,9 @@
     <ul class="navbar-nav bg-white sidebar accordion cotecna__sidebar" id="accordionSidebar" >
 
       <!-- Sidebar - Brand -->
-      <a class="d-flex align-items-center justify-content-center shadow cotecna__sidebar--brand" href="index.html">
-        <img src="img/cotencna-logo-white.png" alt="COTECNA" class="img-fluid">
+      <a class="d-flex align-items-center justify-content-center shadow cotecna__sidebar--brand brand" href="index.html">
+        <img src="img/cotencna-logo-white.png" alt="COTECNA" class="img-fluid logo-bg">
+        <img src="img/cotencna-logo-small.png" alt="COTECNA" class="img-fluid logo-small">
       </a>
 
       <!-- Divider -->
@@ -94,11 +95,11 @@
           
 
             <!-- Nav Item - User Information -->
-            <li class="nav-item dropdown no-arrow">
+            <li class="nav-item dropdown no-arrow text-right">
               <div class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button">
-                <span class="mr-2 d-none d-lg-block small">Jhon Doe<br>Log Out</span>
+                <span class="mr-2 d-none d-lg-block small">user@usercomany.com<br><i class="fas fa-fw fa-power-off"></i> Log Out</span>
                
-                <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+                <img class="img-profile rounded-circle" src="img/User.png">
               </div>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -132,44 +133,38 @@
 
           <!-- Page Heading -->
 
-          
-
               <!-- Banner New Request -->
               <div class="card shadow mb-4 cotecna__banner">
 
                 <div class="card-body text-center">
         
                   <h1>Welcome to Cotecna Inspection Service</h1>
-                  <p>Fast & easy. Request a new inspection now</p>
+                  <p>Fast & Easy. Request a new inspection now</p>
               
-                  <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-secundary shadow-sm"><i class="fas fa-add fa-sm text-white-50"></i> New Request</a>
+                  <a href="#" class="d-sm-inline-block btn btn-sm btn-secundary shadow-sm"><i class="fas fa-plus fa-sm m-1"></i> New Request</a>
                 </div>
               </div>
 
-        
-       
-          
           <!-- INSPECTIONS TABLE-->
           <div class="row">
             <div class="col-lg-12">
-              <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                   <h2 class="h3 m-1 text-gray-800">Upcoming Inspections</h2>
-              </div>
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+              <div class="card shadow mb-4 cotecna__card">
+                <div class="card-header">
+                  <h4 class="m-t-2 text-gray-900">Upcoming Inspections</h4>
                 </div>
                 <div class="card-body">
-                  <div class="table-responsive">
-                    <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <div class="table-responsive cotecna__table">
+                    <table class="table" id="dataTable" width="100%" cellspacing="0">
                       <thead>
                         <tr>
-                          <th>Name</th>
-                          <th>Position</th>
-                          <th>Office</th>
-                          <th>Age</th>
-                          <th>Start date</th>
-                          <th>Salary</th>
+                          <th>Request ID</th>
+                          <th>Date</th>
+                          <th>Hour</th>
+                          <th>Company</th>
+                          <th>Material(s)</th>
+                          <th>Quantity</th>
+                          <th>Status</th>
+                          <th></th>
                         </tr>
                       </thead>
                       <tbody>
@@ -180,6 +175,8 @@
                           <td>61</td>
                           <td>2011/04/25</td>
                           <td>$320,800</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
                           <td>Garrett Winters</td>
@@ -188,6 +185,8 @@
                           <td>63</td>
                           <td>2011/07/25</td>
                           <td>$170,750</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
                           <td>Ashton Cox</td>
@@ -196,6 +195,8 @@
                           <td>66</td>
                           <td>2009/01/12</td>
                           <td>$86,000</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
                           <td>Cedric Kelly</td>
@@ -204,6 +205,8 @@
                           <td>22</td>
                           <td>2012/03/29</td>
                           <td>$433,060</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
                           <td>Airi Satou</td>
@@ -212,6 +215,8 @@
                           <td>33</td>
                           <td>2008/11/28</td>
                           <td>$162,700</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
                           <td>Brielle Williamson</td>
@@ -220,56 +225,9 @@
                           <td>61</td>
                           <td>2012/12/02</td>
                           <td>$372,000</td>
+                          <td>Active</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
-                        <tr>
-                          <td>Herrod Chandler</td>
-                          <td>Sales Assistant</td>
-                          <td>San Francisco</td>
-                          <td>59</td>
-                          <td>2012/08/06</td>
-                          <td>$137,500</td>
-                        </tr>
-                        <tr>
-                          <td>Rhona Davidson</td>
-                          <td>Integration Specialist</td>
-                          <td>Tokyo</td>
-                          <td>55</td>
-                          <td>2010/10/14</td>
-                          <td>$327,900</td>
-                        </tr>
-                        <tr>
-                          <td>Colleen Hurst</td>
-                          <td>Javascript Developer</td>
-                          <td>San Francisco</td>
-                          <td>39</td>
-                          <td>2009/09/15</td>
-                          <td>$205,500</td>
-                        </tr>
-                        <tr>
-                          <td>Sonya Frost</td>
-                          <td>Software Engineer</td>
-                          <td>Edinburgh</td>
-                          <td>23</td>
-                          <td>2008/12/13</td>
-                          <td>$103,600</td>
-                        </tr>
-                        <tr>
-                          <td>Jena Gaines</td>
-                          <td>Office Manager</td>
-                          <td>London</td>
-                          <td>30</td>
-                          <td>2008/12/19</td>
-                          <td>$90,560</td>
-                        </tr>
-                        <tr>
-                          <td>Quinn Flynn</td>
-                          <td>Support Lead</td>
-                          <td>Edinburgh</td>
-                          <td>22</td>
-                          <td>2013/03/03</td>
-                          <td>$342,000</td>
-                        </tr>
-
                       </tbody>
                     </table>
                   </div>
@@ -278,8 +236,10 @@
             </div>
           </div>
 
-         
-
+          <!-- CHAT Button-->
+          <a class="cotecna__chat" href="#">
+          <i class="fas fa-comment"></i>
+        </a>   
         </div>
         <!-- /.container-fluid -->
 
@@ -301,13 +261,6 @@
 
   </div>
   <!-- End of Page Wrapper -->
-
-  <!-- CHAT to Top Button-->
-<!--   <a class="scroll-to-top rounded" href="#page-top">
-    <i class="fas fa-angle-up"></i>
-  </a> -->
-
-
 
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>

@@ -58,3 +58,16 @@ a {
     font-weight: 800;
   }
 }
+
+
+// Custom
+
+.text-right {text-align: right;}
+
+.topbar #sidebarToggleTop:hover, .topbar #sidebarToggleTop:active  {
+  background:none !important;
+}
+
+.m-t-2 {
+  margin-top: 1.5rem;
+}
