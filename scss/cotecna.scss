@@ -9,13 +9,23 @@ $cotecna-brand-secundary: #05FAB3;
 $primary: $cotecna-brand-primary;
 $secundary: $cotecna-brand-secundary;
 
-
 //Fonts
 
 $font-family-sans-serif: 'Roboto', sans-serif !default;
 
-.contecna {
+
+
+//Custom Styles Over Cotecna class on body tag (just for this test)
+
+
+
+.cotecna {
     &__nav{
-        background-color: $cotecna-brand-secundary !important;
+         h1 {
+             font-size: 1.2rem;;
+             color: $primary;
+            
+           
+         }
     }
 }
