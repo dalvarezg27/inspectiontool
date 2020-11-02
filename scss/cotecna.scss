@@ -1,37 +1,61 @@
 // Custom Styles for Cotecna Request Tool Platform. Author: Dani Álvarez 
 
-//Colors
 
+//Colors
+$primary: #303F9F;
 $cotecna-brand-primary: #080A90;
 $cotecna-brand-secundary: #05FAB3;
 $white:#fff;
 
 
-$primary: $cotecna-brand-primary;
-$secundary: $cotecna-brand-secundary;
+$primary-brand: $cotecna-brand-primary;
+$secundary-brand: $cotecna-brand-secundary;
 $background-tool: #EEEEEE;
 
 //Fonts
 
 $font-family-sans-serif: 'Roboto', sans-serif !default;
 
-
-
 //Custom Styles Over Cotecna class on body tag (just for this test)
-
-
 
 .cotecna {
 
     background-color: $background-tool;
 
+    &__sidebar {
 
-    &__sidebar-brand{
-        background-color: $primary;
-      
+        &--brand{
+            background-color: $primary-brand;
+            margin-bottom: 1.3rem;
+            height: 12rem;
+            padding: 2rem;
+            
+
+        }
+
+        &--nav-item {
+            
+            &--nav-link{
+           
+    
+            }
+            
+            &-active {
+                a {
+                    color: $white;
+                    background-color: $primary;
+                    border-radius: 0.35rem;
+                    width: 14rem;
+                }
+            }
+        }
+
+        .nav-item .nav-link {
+            padding: 0.4rem 0.6rem;
+            width: 16rem;
+            margin: 0.8rem 0.6rem;
+        }
     }
-
-
     &__nav{
          h2 {
              font-size: 1.2rem;
@@ -42,10 +66,27 @@ $font-family-sans-serif: 'Roboto', sans-serif !default;
              color: $white;
              background: none;
 
-             &:hover, &:active {
+             &:hover,
+             &:focus,
+             &:active {
                 color: $white;
                 background: none;
              }
          }
+    }
+
+
+    &__banner{
+        background-image: url(../img/home-banner-1.png);
+        background-size: cover;
+        color: $white;
+        min-height: 18rem;
+        padding: 4rem;
+        
+    }
+
+    .btn-secundary{
+        background-color: $cotecna-brand-secundary;
+        color: $white;
     }
 }

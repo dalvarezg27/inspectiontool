@@ -8,8 +8,24 @@
   background-color: #EEEEEE;
 }
 
-.cotecna__sidebar-brand {
+.cotecna__sidebar--brand {
   background-color: #080A90;
+  margin-bottom: 1.3rem;
+  height: 12rem;
+  padding: 2rem;
+}
+
+.cotecna__sidebar--nav-item-active a {
+  color: #fff;
+  background-color: #303F9F;
+  border-radius: 0.35rem;
+  width: 14rem;
+}
+
+.cotecna__sidebar .nav-item .nav-link {
+  padding: 0.4rem 0.6rem;
+  width: 16rem;
+  margin: 0.8rem 0.6rem;
 }
 
 .cotecna__nav h2 {
@@ -22,7 +38,20 @@
   background: none;
 }
 
-.cotecna__nav--menu-btn:hover, .cotecna__nav--menu-btn:active {
+.cotecna__nav--menu-btn:hover, .cotecna__nav--menu-btn:focus, .cotecna__nav--menu-btn:active {
   color: #fff;
   background: none;
+}
+
+.cotecna__banner {
+  background-image: url(../img/home-banner-1.png);
+  background-size: cover;
+  color: #fff;
+  min-height: 18rem;
+  padding: 4rem;
+}
+
+.cotecna .btn-secundary {
+  background-color: #05FAB3;
+  color: #fff;
 }
