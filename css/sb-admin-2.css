@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
-  --blue: #4e73df;
+  --blue: #303F9F;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #858796;
   --gray-dark: #5a5c69;
-  --primary: #4e73df;
+  --primary: #303F9F;
   --secondary: #858796;
   --success: #1cc88a;
   --info: #36b9cc;
@@ -159,13 +159,13 @@ sup {
 }
 
 a {
-  color: #4e73df;
+  color: #303F9F;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #224abe;
+  color: #1e2864;
   text-decoration: underline;
 }
 
@@ -1750,23 +1750,23 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #cdd8f6;
+  background-color: #c5c9e4;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #a3b6ee;
+  border-color: #939bcd;
 }
 
 .table-hover .table-primary:hover {
-  background-color: #b7c7f2;
+  background-color: #b4b9dc;
 }
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #b7c7f2;
+  background-color: #b4b9dc;
 }
 
 .table-secondary,
@@ -2070,9 +2070,9 @@ pre code {
 .form-control:focus {
   color: #6e707e;
   background-color: #fff;
-  border-color: #bac8f3;
+  border-color: #7885d6;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2559,7 +2559,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -2577,39 +2577,39 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
+  background-color: #273382;
+  border-color: #242f78;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #2e59d9;
-  border-color: #2653d4;
-  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+  background-color: #273382;
+  border-color: #242f78;
+  box-shadow: 0 0 0 0.2rem rgba(79, 92, 173, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #2653d4;
-  border-color: #244ec9;
+  background-color: #242f78;
+  border-color: #212c6e;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(79, 92, 173, 0.5);
 }
 
 .btn-secondary {
@@ -2872,35 +2872,35 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #4e73df;
-  border-color: #4e73df;
+  color: #303F9F;
+  border-color: #303F9F;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.5);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #4e73df;
+  color: #303F9F;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.5);
 }
 
 .btn-outline-secondary {
@@ -3129,12 +3129,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #4e73df;
+  color: #303F9F;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #224abe;
+  color: #1e2864;
   text-decoration: underline;
 }
 
@@ -3431,7 +3431,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #4e73df;
+  background-color: #303F9F;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3805,22 +3805,22 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #4e73df;
-  background-color: #4e73df;
+  border-color: #303F9F;
+  background-color: #303F9F;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #bac8f3;
+  border-color: #7885d6;
 }
 
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
-  background-color: #e5ebfa;
-  border-color: #e5ebfa;
+  background-color: #9fa8e2;
+  border-color: #9fa8e2;
 }
 
 .custom-control-input[disabled] ~ .custom-control-label, .custom-control-input:disabled ~ .custom-control-label {
@@ -3870,8 +3870,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #4e73df;
-  background-color: #4e73df;
+  border-color: #303F9F;
+  background-color: #303F9F;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3879,11 +3879,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(78, 115, 223, 0.5);
+  background-color: rgba(48, 63, 159, 0.5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(78, 115, 223, 0.5);
+  background-color: rgba(48, 63, 159, 0.5);
 }
 
 .custom-radio .custom-control-label::before {
@@ -3895,7 +3895,7 @@ input[type="button"].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(78, 115, 223, 0.5);
+  background-color: rgba(48, 63, 159, 0.5);
 }
 
 .custom-switch {
@@ -3936,7 +3936,7 @@ input[type="button"].btn-block {
 }
 
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(78, 115, 223, 0.5);
+  background-color: rgba(48, 63, 159, 0.5);
 }
 
 .custom-select {
@@ -3958,9 +3958,9 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #bac8f3;
+  border-color: #7885d6;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-select:focus::-ms-value {
@@ -4022,8 +4022,8 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input:focus ~ .custom-file-label {
-  border-color: #bac8f3;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  border-color: #7885d6;
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-file-input[disabled] ~ .custom-file-label,
@@ -4087,15 +4087,15 @@ input[type="button"].btn-block {
 }
 
 .custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .custom-range::-moz-focus-outer {
@@ -4106,7 +4106,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #4e73df;
+  background-color: #303F9F;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4123,7 +4123,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-webkit-slider-thumb:active {
-  background-color: #e5ebfa;
+  background-color: #9fa8e2;
 }
 
 .custom-range::-webkit-slider-runnable-track {
@@ -4139,7 +4139,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #4e73df;
+  background-color: #303F9F;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4156,7 +4156,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-moz-range-thumb:active {
-  background-color: #e5ebfa;
+  background-color: #9fa8e2;
 }
 
 .custom-range::-moz-range-track {
@@ -4175,7 +4175,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #4e73df;
+  background-color: #303F9F;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4191,7 +4191,7 @@ input[type="button"].btn-block {
 }
 
 .custom-range::-ms-thumb:active {
-  background-color: #e5ebfa;
+  background-color: #9fa8e2;
 }
 
 .custom-range::-ms-track {
@@ -4319,7 +4319,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #4e73df;
+  background-color: #303F9F;
 }
 
 .nav-fill .nav-item {
@@ -5040,14 +5040,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #4e73df;
+  color: #303F9F;
   background-color: #fff;
   border: 1px solid #dddfeb;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #224abe;
+  color: #1e2864;
   text-decoration: none;
   background-color: #eaecf4;
   border-color: #dddfeb;
@@ -5056,7 +5056,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.25);
 }
 
 .page-item:first-child .page-link {
@@ -5073,8 +5073,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .page-item.disabled .page-link {
@@ -5159,17 +5159,17 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #4e73df;
+  background-color: #303F9F;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #2653d4;
+  background-color: #242f78;
 }
 
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(48, 63, 159, 0.5);
 }
 
 .badge-secondary {
@@ -5325,17 +5325,17 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .alert-primary {
-  color: #293c74;
-  background-color: #dce3f9;
-  border-color: #cdd8f6;
+  color: #192153;
+  background-color: #d6d9ec;
+  border-color: #c5c9e4;
 }
 
 .alert-primary hr {
-  border-top-color: #b7c7f2;
+  border-top-color: #b4b9dc;
 }
 
 .alert-primary .alert-link {
-  color: #1c294e;
+  color: #0d112c;
 }
 
 .alert-secondary {
@@ -5477,7 +5477,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #4e73df;
+  background-color: #303F9F;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -5574,8 +5574,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #4e73df;
-  border-color: #4e73df;
+  background-color: #303F9F;
+  border-color: #303F9F;
 }
 
 .list-group-item + .list-group-item {
@@ -5738,19 +5738,19 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .list-group-item-primary {
-  color: #293c74;
-  background-color: #cdd8f6;
+  color: #192153;
+  background-color: #c5c9e4;
 }
 
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #293c74;
-  background-color: #b7c7f2;
+  color: #192153;
+  background-color: #b4b9dc;
 }
 
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #293c74;
-  border-color: #293c74;
+  background-color: #192153;
+  border-color: #192153;
 }
 
 .list-group-item-secondary {
@@ -6756,13 +6756,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #4e73df !important;
+  background-color: #303F9F !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #2653d4 !important;
+  background-color: #242f78 !important;
 }
 
 .bg-secondary {
@@ -6884,7 +6884,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #4e73df !important;
+  border-color: #303F9F !important;
 }
 
 .border-secondary {
@@ -10049,11 +10049,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #4e73df !important;
+  color: #303F9F !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #224abe !important;
+  color: #1e2864 !important;
 }
 
 .text-secondary {
@@ -10357,9 +10357,9 @@ a:focus {
 }
 
 .bg-gradient-primary {
-  background-color: #4e73df;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #4e73df), to(#224abe));
-  background-image: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+  background-color: #303F9F;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #303F9F), to(#1e2864));
+  background-image: linear-gradient(180deg, #303F9F 10%, #1e2864 100%);
   background-size: cover;
 }
 
@@ -10509,11 +10509,11 @@ a:focus {
 }
 
 .border-left-primary {
-  border-left: 0.25rem solid #4e73df !important;
+  border-left: 0.25rem solid #303F9F !important;
 }
 
 .border-bottom-primary {
-  border-bottom: 0.25rem solid #4e73df !important;
+  border-bottom: 0.25rem solid #303F9F !important;
 }
 
 .border-left-secondary {
@@ -10705,8 +10705,8 @@ a:focus {
 }
 
 .topbar .dropdown-list .dropdown-header {
-  background-color: #4e73df;
-  border: 1px solid #4e73df;
+  background-color: #303F9F;
+  border: 1px solid #303F9F;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: #fff;
@@ -10881,7 +10881,7 @@ a:focus {
 
 .sidebar .nav-item .collapse .collapse-inner .collapse-item.active,
 .sidebar .nav-item .collapsing .collapse-inner .collapse-item.active {
-  color: #4e73df;
+  color: #303F9F;
   font-weight: 700;
 }
 
@@ -11429,133 +11429,133 @@ form.user .btn-user {
 
 @-webkit-keyframes noise-anim {
   0% {
-    clip: rect(3px, 9999px, 73px, 0);
+    clip: rect(15px, 9999px, 22px, 0);
   }
   5% {
-    clip: rect(52px, 9999px, 93px, 0);
+    clip: rect(15px, 9999px, 82px, 0);
   }
   10% {
-    clip: rect(47px, 9999px, 14px, 0);
+    clip: rect(71px, 9999px, 4px, 0);
   }
   15% {
-    clip: rect(80px, 9999px, 18px, 0);
+    clip: rect(59px, 9999px, 59px, 0);
   }
   20% {
-    clip: rect(47px, 9999px, 24px, 0);
+    clip: rect(82px, 9999px, 31px, 0);
   }
   25% {
-    clip: rect(44px, 9999px, 8px, 0);
+    clip: rect(11px, 9999px, 51px, 0);
   }
   30% {
-    clip: rect(79px, 9999px, 69px, 0);
+    clip: rect(20px, 9999px, 71px, 0);
   }
   35% {
-    clip: rect(11px, 9999px, 59px, 0);
+    clip: rect(21px, 9999px, 17px, 0);
   }
   40% {
-    clip: rect(69px, 9999px, 34px, 0);
+    clip: rect(100px, 9999px, 95px, 0);
   }
   45% {
-    clip: rect(58px, 9999px, 42px, 0);
+    clip: rect(21px, 9999px, 3px, 0);
   }
   50% {
-    clip: rect(50px, 9999px, 53px, 0);
+    clip: rect(71px, 9999px, 81px, 0);
   }
   55% {
-    clip: rect(58px, 9999px, 88px, 0);
+    clip: rect(34px, 9999px, 10px, 0);
   }
   60% {
-    clip: rect(50px, 9999px, 62px, 0);
+    clip: rect(46px, 9999px, 47px, 0);
   }
   65% {
-    clip: rect(60px, 9999px, 16px, 0);
+    clip: rect(86px, 9999px, 34px, 0);
   }
   70% {
-    clip: rect(83px, 9999px, 56px, 0);
+    clip: rect(35px, 9999px, 64px, 0);
   }
   75% {
-    clip: rect(51px, 9999px, 77px, 0);
+    clip: rect(65px, 9999px, 65px, 0);
   }
   80% {
-    clip: rect(78px, 9999px, 47px, 0);
+    clip: rect(47px, 9999px, 46px, 0);
   }
   85% {
-    clip: rect(63px, 9999px, 33px, 0);
+    clip: rect(52px, 9999px, 93px, 0);
   }
   90% {
-    clip: rect(50px, 9999px, 11px, 0);
+    clip: rect(79px, 9999px, 56px, 0);
   }
   95% {
-    clip: rect(21px, 9999px, 71px, 0);
+    clip: rect(70px, 9999px, 24px, 0);
   }
   100% {
-    clip: rect(42px, 9999px, 19px, 0);
+    clip: rect(58px, 9999px, 2px, 0);
   }
 }
 
 @keyframes noise-anim {
   0% {
-    clip: rect(3px, 9999px, 73px, 0);
+    clip: rect(15px, 9999px, 22px, 0);
   }
   5% {
-    clip: rect(52px, 9999px, 93px, 0);
+    clip: rect(15px, 9999px, 82px, 0);
   }
   10% {
-    clip: rect(47px, 9999px, 14px, 0);
+    clip: rect(71px, 9999px, 4px, 0);
   }
   15% {
-    clip: rect(80px, 9999px, 18px, 0);
+    clip: rect(59px, 9999px, 59px, 0);
   }
   20% {
-    clip: rect(47px, 9999px, 24px, 0);
+    clip: rect(82px, 9999px, 31px, 0);
   }
   25% {
-    clip: rect(44px, 9999px, 8px, 0);
+    clip: rect(11px, 9999px, 51px, 0);
   }
   30% {
-    clip: rect(79px, 9999px, 69px, 0);
+    clip: rect(20px, 9999px, 71px, 0);
   }
   35% {
-    clip: rect(11px, 9999px, 59px, 0);
+    clip: rect(21px, 9999px, 17px, 0);
   }
   40% {
-    clip: rect(69px, 9999px, 34px, 0);
+    clip: rect(100px, 9999px, 95px, 0);
   }
   45% {
-    clip: rect(58px, 9999px, 42px, 0);
+    clip: rect(21px, 9999px, 3px, 0);
   }
   50% {
-    clip: rect(50px, 9999px, 53px, 0);
+    clip: rect(71px, 9999px, 81px, 0);
   }
   55% {
-    clip: rect(58px, 9999px, 88px, 0);
+    clip: rect(34px, 9999px, 10px, 0);
   }
   60% {
-    clip: rect(50px, 9999px, 62px, 0);
+    clip: rect(46px, 9999px, 47px, 0);
   }
   65% {
-    clip: rect(60px, 9999px, 16px, 0);
+    clip: rect(86px, 9999px, 34px, 0);
   }
   70% {
-    clip: rect(83px, 9999px, 56px, 0);
+    clip: rect(35px, 9999px, 64px, 0);
   }
   75% {
-    clip: rect(51px, 9999px, 77px, 0);
+    clip: rect(65px, 9999px, 65px, 0);
   }
   80% {
-    clip: rect(78px, 9999px, 47px, 0);
+    clip: rect(47px, 9999px, 46px, 0);
   }
   85% {
-    clip: rect(63px, 9999px, 33px, 0);
+    clip: rect(52px, 9999px, 93px, 0);
   }
   90% {
-    clip: rect(50px, 9999px, 11px, 0);
+    clip: rect(79px, 9999px, 56px, 0);
   }
   95% {
-    clip: rect(21px, 9999px, 71px, 0);
+    clip: rect(70px, 9999px, 24px, 0);
   }
   100% {
-    clip: rect(42px, 9999px, 19px, 0);
+    clip: rect(58px, 9999px, 2px, 0);
   }
 }
 
@@ -11574,133 +11574,133 @@ form.user .btn-user {
 
 @-webkit-keyframes noise-anim-2 {
   0% {
-    clip: rect(64px, 9999px, 28px, 0);
+    clip: rect(46px, 9999px, 89px, 0);
   }
   5% {
-    clip: rect(25px, 9999px, 26px, 0);
+    clip: rect(83px, 9999px, 5px, 0);
   }
   10% {
-    clip: rect(45px, 9999px, 56px, 0);
+    clip: rect(87px, 9999px, 80px, 0);
   }
   15% {
-    clip: rect(5px, 9999px, 74px, 0);
+    clip: rect(71px, 9999px, 21px, 0);
   }
   20% {
-    clip: rect(46px, 9999px, 79px, 0);
+    clip: rect(40px, 9999px, 69px, 0);
   }
   25% {
-    clip: rect(62px, 9999px, 53px, 0);
+    clip: rect(78px, 9999px, 47px, 0);
   }
   30% {
-    clip: rect(85px, 9999px, 78px, 0);
+    clip: rect(13px, 9999px, 87px, 0);
   }
   35% {
-    clip: rect(65px, 9999px, 15px, 0);
+    clip: rect(73px, 9999px, 66px, 0);
   }
   40% {
-    clip: rect(24px, 9999px, 15px, 0);
+    clip: rect(40px, 9999px, 70px, 0);
   }
   45% {
-    clip: rect(77px, 9999px, 40px, 0);
+    clip: rect(97px, 9999px, 59px, 0);
   }
   50% {
-    clip: rect(22px, 9999px, 89px, 0);
+    clip: rect(7px, 9999px, 34px, 0);
   }
   55% {
-    clip: rect(65px, 9999px, 90px, 0);
+    clip: rect(39px, 9999px, 94px, 0);
   }
   60% {
-    clip: rect(92px, 9999px, 21px, 0);
+    clip: rect(66px, 9999px, 34px, 0);
   }
   65% {
-    clip: rect(88px, 9999px, 79px, 0);
+    clip: rect(68px, 9999px, 50px, 0);
   }
   70% {
-    clip: rect(92px, 9999px, 73px, 0);
+    clip: rect(71px, 9999px, 27px, 0);
   }
   75% {
-    clip: rect(3px, 9999px, 75px, 0);
+    clip: rect(55px, 9999px, 30px, 0);
   }
   80% {
-    clip: rect(7px, 9999px, 7px, 0);
+    clip: rect(68px, 9999px, 43px, 0);
   }
   85% {
-    clip: rect(78px, 9999px, 4px, 0);
+    clip: rect(40px, 9999px, 42px, 0);
   }
   90% {
-    clip: rect(26px, 9999px, 40px, 0);
+    clip: rect(88px, 9999px, 6px, 0);
   }
   95% {
-    clip: rect(95px, 9999px, 26px, 0);
+    clip: rect(56px, 9999px, 23px, 0);
   }
   100% {
-    clip: rect(4px, 9999px, 73px, 0);
+    clip: rect(26px, 9999px, 52px, 0);
   }
 }
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(64px, 9999px, 28px, 0);
+    clip: rect(46px, 9999px, 89px, 0);
   }
   5% {
-    clip: rect(25px, 9999px, 26px, 0);
+    clip: rect(83px, 9999px, 5px, 0);
   }
   10% {
-    clip: rect(45px, 9999px, 56px, 0);
+    clip: rect(87px, 9999px, 80px, 0);
   }
   15% {
-    clip: rect(5px, 9999px, 74px, 0);
+    clip: rect(71px, 9999px, 21px, 0);
   }
   20% {
-    clip: rect(46px, 9999px, 79px, 0);
+    clip: rect(40px, 9999px, 69px, 0);
   }
   25% {
-    clip: rect(62px, 9999px, 53px, 0);
+    clip: rect(78px, 9999px, 47px, 0);
   }
   30% {
-    clip: rect(85px, 9999px, 78px, 0);
+    clip: rect(13px, 9999px, 87px, 0);
   }
   35% {
-    clip: rect(65px, 9999px, 15px, 0);
+    clip: rect(73px, 9999px, 66px, 0);
   }
   40% {
-    clip: rect(24px, 9999px, 15px, 0);
+    clip: rect(40px, 9999px, 70px, 0);
   }
   45% {
-    clip: rect(77px, 9999px, 40px, 0);
+    clip: rect(97px, 9999px, 59px, 0);
   }
   50% {
-    clip: rect(22px, 9999px, 89px, 0);
+    clip: rect(7px, 9999px, 34px, 0);
   }
   55% {
-    clip: rect(65px, 9999px, 90px, 0);
+    clip: rect(39px, 9999px, 94px, 0);
   }
   60% {
-    clip: rect(92px, 9999px, 21px, 0);
+    clip: rect(66px, 9999px, 34px, 0);
   }
   65% {
-    clip: rect(88px, 9999px, 79px, 0);
+    clip: rect(68px, 9999px, 50px, 0);
   }
   70% {
-    clip: rect(92px, 9999px, 73px, 0);
+    clip: rect(71px, 9999px, 27px, 0);
   }
   75% {
-    clip: rect(3px, 9999px, 75px, 0);
+    clip: rect(55px, 9999px, 30px, 0);
   }
   80% {
-    clip: rect(7px, 9999px, 7px, 0);
+    clip: rect(68px, 9999px, 43px, 0);
   }
   85% {
-    clip: rect(78px, 9999px, 4px, 0);
+    clip: rect(40px, 9999px, 42px, 0);
   }
   90% {
-    clip: rect(26px, 9999px, 40px, 0);
+    clip: rect(88px, 9999px, 6px, 0);
   }
   95% {
-    clip: rect(95px, 9999px, 26px, 0);
+    clip: rect(56px, 9999px, 23px, 0);
   }
   100% {
-    clip: rect(4px, 9999px, 73px, 0);
+    clip: rect(26px, 9999px, 52px, 0);
   }
 }
 
@@ -11708,7 +11708,7 @@ form.user .btn-user {
   content: attr(data-text);
   position: absolute;
   left: -2px;
-  text-shadow: 1px 0 #4e73df;
+  text-shadow: 1px 0 #303F9F;
   top: 0;
   color: #5a5c69;
   background: #f8f9fc;

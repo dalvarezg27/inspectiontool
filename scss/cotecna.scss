@@ -4,10 +4,12 @@
 
 $cotecna-brand-primary: #080A90;
 $cotecna-brand-secundary: #05FAB3;
+$white:#fff;
 
 
 $primary: $cotecna-brand-primary;
 $secundary: $cotecna-brand-secundary;
+$background-tool: #EEEEEE;
 
 //Fonts
 
@@ -20,12 +22,30 @@ $font-family-sans-serif: 'Roboto', sans-serif !default;
 
 
 .cotecna {
+
+    background-color: $background-tool;
+
+
+    &__sidebar-brand{
+        background-color: $primary;
+      
+    }
+
+
     &__nav{
-         h1 {
-             font-size: 1.2rem;;
-             color: $primary;
-            
-           
+         h2 {
+             font-size: 1.2rem;
+             color: $white;
+         }
+
+         &--menu-btn{
+             color: $white;
+             background: none;
+
+             &:hover, &:active {
+                color: $white;
+                background: none;
+             }
          }
     }
 }

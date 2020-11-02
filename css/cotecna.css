@@ -4,7 +4,25 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin-2/blob/master/LICENSE)
  */
 
-.cotecna__nav h1 {
+.cotecna {
+  background-color: #EEEEEE;
+}
+
+.cotecna__sidebar-brand {
+  background-color: #080A90;
+}
+
+.cotecna__nav h2 {
   font-size: 1.2rem;
-  color: #080A90;
+  color: #fff;
+}
+
+.cotecna__nav--menu-btn {
+  color: #fff;
+  background: none;
+}
+
+.cotecna__nav--menu-btn:hover, .cotecna__nav--menu-btn:active {
+  color: #fff;
+  background: none;
 }
