@@ -7,19 +7,19 @@ $cotecna-brand-primary: #080A90;
 $cotecna-brand-secundary: #05FAB3;
 $light-blue:lighten($primary,36%);
 $white:#fff;
-
-
 $primary-brand: $cotecna-brand-primary;
 $secundary-brand: $cotecna-brand-secundary;
 $background-tool: #EEEEEE;
 
-//Fonts
+//Request Status
+$confirmed:#5AF158;
+$pending:#FBD10D;
+$caceled:#FF5975;
 
+//Fonts
 $font-family-sans-serif: 'Roboto', sans-serif !default;
 
-
 //Custom BreakPoints
-
 $min-tablet: 768px;
 
 //Custom Styles Over Cotecna class on body tag (just for this test)
@@ -107,7 +107,18 @@ $min-tablet: 768px;
         .table th {
             border: none;
             font-weight: lighter;
-            font-size: 0.80rem;
+            font-size: 0.80rem; 
+        }
+
+        &__stauts{
+            width: 16px;
+            height: 16px;
+            border-radius: 10px;
+            display: inline;
+
+            &--confirmed{
+                color: $confirmed;
+            }
         }
     }
 

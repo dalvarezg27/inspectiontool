@@ -74,6 +74,17 @@
   font-size: 0.80rem;
 }
 
+.cotecna__table__stauts {
+  width: 16px;
+  height: 16px;
+  border-radius: 10px;
+  display: inline;
+}
+
+.cotecna__table__stauts--confirmed {
+  color: #5AF158;
+}
+
 .cotecna__chat {
   display: block;
   position: fixed;
