@@ -9,18 +9,22 @@ $light-blue:lighten($primary,36%);
 $white:#fff;
 $primary-brand: $cotecna-brand-primary;
 $secundary-brand: $cotecna-brand-secundary;
-$background-tool: #EEEEEE;
+$background-tool: #e9e9e9;
+$chat: #91A7FF;
+
 
 //Request Status
 $confirmed:#5AF158;
 $pending:#FBD10D;
-$caceled:#FF5975;
+$canceled:#FF5975;
 
 //Fonts
 $font-family-sans-serif: 'Roboto', sans-serif !default;
 
 //Custom BreakPoints
 $min-tablet: 768px;
+$min-desktop: 1280px;
+
 
 //Custom Styles Over Cotecna class on body tag (just for this test)
 
@@ -110,15 +114,37 @@ $min-tablet: 768px;
             font-size: 0.80rem; 
         }
 
-        &__stauts{
-            width: 16px;
-            height: 16px;
+        .table td {
+            padding: 1.1rem 0.65rem;
+            font-size: 0.95rem;
+            color:#444;
+        }
+
+        &__status{
+            width: 11px;
+            height: 11px;
             border-radius: 10px;
-            display: inline;
+            display: inline-block;
+            margin-right: 0.3rem;
+            
 
             &--confirmed{
-                color: $confirmed;
+                background-color: $confirmed;
             }
+            &--pending{
+                background-color: $pending;
+            }
+            &--canceled{
+                background-color: $canceled;
+            }
+        }
+
+        &--link{
+            display: block;
+            text-align: right;
+            padding-bottom: 1rem; 
+            padding-right: 1rem;
+
         }
     }
 
@@ -127,12 +153,12 @@ $min-tablet: 768px;
         position: fixed;
         right: 1rem;
         bottom: 1rem;
-        width: 3.25rem;
-        height: 3.25rem;
+        width: 3.75rem;
+        height: 3.75rem;
         text-align: center;
         color: $white;
-        background-color: $light-blue;
-        line-height: 54px;
+        background-color: $chat;
+        line-height: 62px;
         border-radius: 20rem;
 
         &:focus,
@@ -144,7 +170,7 @@ $min-tablet: 768px;
         }
         i {
           font-weight: 800;
-          font-size: 1.4rem;
+          font-size: 1.5rem;
         }    
     }
 }
@@ -200,6 +226,12 @@ $min-tablet: 768px;
         text-align: center;
         padding: 0.75rem 0.75rem;
         width: 4.5rem;
+    }
+
+}
+@media screen and (max-width: $min-desktop) {
+    .hidden-desktop-down{
+        display: none;
     }
 }
 

@@ -139,18 +139,31 @@
                 <div class="card-body text-center">
         
                   <h1>Welcome to Cotecna Inspection Service</h1>
-                  <p>Fast & Easy. Request a new inspection now</p>
+                  <p class="m-b-2">Fast & Easy. Request a new inspection now</p>
               
-                  <a href="#" class="d-sm-inline-block btn btn-sm btn-secundary shadow-sm p-r-1"><i class="fas fa-plus fa-sm m-1"></i> New Request</a>
+                  <a href="#" class="d-sm-inline-block btn btn-sm btn-secundary shadow-sm p-r-1"><i class="fas fa-plus fa-sm m-1"></i> NEW REQUEST</a>
                 </div>
               </div>
 
           <!-- INSPECTIONS TABLE-->
           <div class="row">
             <div class="col-lg-12">
-              <div class="card shadow mb-4 cotecna__card">
-                <div class="card-header">
+              <div class="card shadow cotecna__card">
+                <div class="card-header  d-flex flex-row align-items-center justify-content-between">
                   <h4 class="m-t-2 text-gray-900">Upcoming Inspections</h4>
+                  <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle mr-2" href="#" role="button">
+                      <i class="fas fa-download  fa-fw text-gray-400"></i>
+                    </a>
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <i class="fas fa-ellipsis-v  fa-fw text-gray-400"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
+                      <div class="dropdown-header">Table Options</div>
+                      <a class="dropdown-item" href="#">Share</a>
+                      <a class="dropdown-item" href="#">Import</a>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive cotecna__table">
@@ -158,9 +171,9 @@
                       <thead>
                         <tr>
                           <th></th>
-                          <th>Request ID</th>
+                          <th class="hidden-desktop-down">Request ID</th>
                           <th>Date</th>
-                          <th>Hour</th>
+                          <th class="hidden-desktop-down">Hour</th>
                           <th>Company</th>
                           <th>Material(s)</th>
                           <th>Quantity</th>
@@ -176,9 +189,9 @@
                               <label class="custom-control-label" for="tableDefaultCheck1"></label>
                             </div>
                           </td>
-                          <td>CTN-0001</td>
-                          <td>10/010/2020</td>
-                          <td>08:00am</td>
+                          <td class="hidden-desktop-down">CTN-20-0001</td>
+                          <td>10/10/2020</td>
+                          <td class="hidden-desktop-down">08:00am</td>
                           <td>Limited Export SLU</td>
                           <td>Grain</td>
                           <td>20000 T</td>
@@ -192,13 +205,30 @@
                               <label class="custom-control-label" for="tableDefaultCheck1"></label>
                             </div>
                           </td>
-                          <td>Garrett Winters</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                          <td>63</td>
-                          <td>2011/07/25</td>
-                          <td>$170,750</td>
-                          <td>Active</td>
+                          <td class="hidden-desktop-down">CTN-20-0002</td>
+                          <td>12/10/2020</td>
+                          <td class="hidden-desktop-down">12:45am</td>
+                          <td>Open Transport and Logistic SA</td>
+                          <td>Fuel: Petrol;</td>
+                          <td>-</td>
+                          <td><span class="cotecna__table__status cotecna__table__status--confirmed"></span>Confirmed</td>
+                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="custom-control custom-checkbox">
+                              <input type="checkbox" class="custom-control-input">
+                              <label class="custom-control-label" for="tableDefaultCheck1"></label>
+                            </div>
+                          </td>
+                          <td class="hidden-desktop-down">CTN-20-0004</td>
+                          <td>15/11/2020</td>
+                          <td class="hidden-desktop-down">10:00am</td>
+                          <td>Limited Export SLU</td>
+                          <td>Olive Oil</td>
+                          <td>30000 L</td>
+                          <td><span class="cotecna__table__status cotecna__table__status--pending"></span>Pending</td>
                           <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
@@ -208,13 +238,13 @@
                               <label class="custom-control-label" for="tableDefaultCheck1"></label>
                             </div>
                           </td>
-                          <td>Ashton Cox</td>
-                          <td>Junior Technical Author</td>
-                          <td>San Francisco</td>
-                          <td>66</td>
-                          <td>2009/01/12</td>
-                          <td>$86,000</td>
-                          <td>Active</td>
+                          <td class="hidden-desktop-down">CTN-20-0005</td>
+                          <td>01/12/2020</td>
+                          <td class="hidden-desktop-down">04:30pm</td>
+                          <td>HTC Import&Export</td>
+                          <td>Carbon</td>
+                          <td>45500 T</td>
+                          <td><span class="cotecna__table__status cotecna__table__status--canceled"></span>Canceled</td>
                           <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                         <tr>
@@ -224,49 +254,18 @@
                               <label class="custom-control-label" for="tableDefaultCheck1"></label>
                             </div>
                           </td>
-                          <td>Cedric Kelly</td>
-                          <td>Senior Javascript Developer</td>
-                          <td>Edinburgh</td>
-                          <td>22</td>
-                          <td>2012/03/29</td>
-                          <td>$433,060</td>
-                          <td>Active</td>
-                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div class="custom-control custom-checkbox">
-                              <input type="checkbox" class="custom-control-input">
-                              <label class="custom-control-label" for="tableDefaultCheck1"></label>
-                            </div>
-                          </td>
-                          <td>Airi Satou</td>
-                          <td>Accountant</td>
-                          <td>Tokyo</td>
-                          <td>33</td>
-                          <td>2008/11/28</td>
-                          <td>$162,700</td>
-                          <td>Active</td>
-                          <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <div class="custom-control custom-checkbox">
-                              <input type="checkbox" class="custom-control-input">
-                              <label class="custom-control-label" for="tableDefaultCheck1"></label>
-                            </div>
-                          </td>
-                          <td>Brielle Williamson</td>
-                          <td>Integration Specialist</td>
-                          <td>New York</td>
-                          <td>61</td>
-                          <td>2012/12/02</td>
-                          <td>$372,000</td>
-                          <td>Active</td>
+                          <td class="hidden-desktop-down">CTN-20-0006</td>
+                          <td>09/12/2020</td>
+                          <td class="hidden-desktop-down">06:00am</td>
+                          <td>Comercial Ventures Barcelona</td>
+                          <td>Wood; Carbon; 2+</td>
+                          <td>-</td>
+                          <td><span class="cotecna__table__status cotecna__table__status--confirmed"></span>Confirmed</td>
                           <td><i class="fas fa-angle-right fa-sm m-1"></i></td>
                         </tr>
                       </tbody>
                     </table>
+                      <a href="#" class="text-right cotecna__table--link">Vew All Requests</a>
                   </div>
                 </div>
               </div>
@@ -310,11 +309,11 @@
   <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/datatables/jquery.dataTables.js"></script>
+  <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
+  <script src="js/demo/datatables-demo.js"></script>
 
 </body>
 

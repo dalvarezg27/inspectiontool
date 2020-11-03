@@ -60,7 +60,7 @@ a {
 }
 
 
-// Custom
+// Custom Cotecna
 
 .text-right {text-align: right;}
 
@@ -74,4 +74,16 @@ a {
 
 .p-r-1{
   padding-right: 1rem;
+}
+
+#dataTable_length, #dataTable_filter, .dataTables_paginate{
+  display: none;
+}
+
+.dataTables_info {
+  font-size: 0.85rem;
+}
+
+.m-b-2 {
+  margin-bottom: 2rem;
 }
