@@ -98,6 +98,12 @@ $min-desktop: 1280px;
     .btn-secundary{
         background-color: $cotecna-brand-secundary;
         color: $white;
+
+        &:active,
+        &:focus,
+        &:hover{
+            background-color: $primary-brand;
+        }
     }
 
     &__card{
@@ -112,6 +118,17 @@ $min-desktop: 1280px;
             border: none;
             font-weight: lighter;
             font-size: 0.80rem; 
+        }
+
+        .table tr:hover {
+            cursor: pointer;
+            background-color: lighten($primary, 58%);
+
+            .td-arrow{    
+                      transform: translateX(6px); 
+                      transition: all 0.5s;   
+                  }
+
         }
 
         .table td {
@@ -228,7 +245,11 @@ $min-desktop: 1280px;
         width: 4.5rem;
     }
 
+    .cotecna__table__status{
+        display: none;
+    }
 }
+
 @media screen and (max-width: $min-desktop) {
     .hidden-desktop-down{
         display: none;

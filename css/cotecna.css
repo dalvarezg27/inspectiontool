@@ -61,6 +61,10 @@
   color: #fff;
 }
 
+.cotecna .btn-secundary:active, .cotecna .btn-secundary:focus, .cotecna .btn-secundary:hover {
+  background-color: #080A90;
+}
+
 .cotecna__card .card-header {
   background-color: #fff;
   border-bottom: none;
@@ -70,6 +74,18 @@
   border: none;
   font-weight: lighter;
   font-size: 0.80rem;
+}
+
+.cotecna__table .table tr:hover {
+  cursor: pointer;
+  background-color: #f9fafd;
+}
+
+.cotecna__table .table tr:hover .td-arrow {
+  -webkit-transform: translateX(6px);
+  transform: translateX(6px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .cotecna__table .table td {
@@ -168,6 +184,9 @@
     text-align: center;
     padding: 0.75rem 0.75rem;
     width: 4.5rem;
+  }
+  .cotecna__table__status {
+    display: none;
   }
 }
 
